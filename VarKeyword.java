@@ -2,8 +2,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-import javax.swing.plaf.synth.SynthConstants;
-
 public class VarKeyword {
   public static void main(String[] args) {
     // var — only for local variables
