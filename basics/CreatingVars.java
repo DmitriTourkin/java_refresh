@@ -1,4 +1,6 @@
-class Main {
+public class CreatingVars {
+  // The compiler will assign a reasonable default value for fields of the above types; 
+  // for local variables, a default value is never assigned.
 
   // Creating Values with Literals
   boolean result = true;
