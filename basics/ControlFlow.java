@@ -1,5 +1,9 @@
+import javax.swing.text.StyledEditorKit;
+
 public class ControlFlow {
   public static void main(String[] args) {
+    switchCaseFlow();
+    
     int[][] arrayOfInts = {
       {32, 87, 3, 589},
       {12, 1076, 2000, 8},
@@ -53,7 +57,26 @@ public class ControlFlow {
     System.out.println(foundIt ? "Found it" : "Didn't find it");
   }
 
-  public static void continueLabeled() {
-    return;
+  public static void switchCaseFlow() {
+    System.out.println("Switch Case Flow \n");
+    int state = 5;
+    switch (state) {
+      case 1: {
+        int a = 5;
+        break;
+      }
+      case 2: {
+        System.out.println("case 2");
+        break;
+      }
+      case 5: {
+        System.out.println("case 5");
+        break;
+      }
+
+      default: {
+        System.out.println("defult state");
+      }
+    }
   }
 }
