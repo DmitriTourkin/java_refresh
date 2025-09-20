@@ -41,7 +41,8 @@ public class ControlFlow {
         int n = substring.length();
         int j = i;
         int k = 0;
-        while (n-- != 0) {
+        while (n-- != 0) { // Выполнится ровно n раз!
+          //n-- != 0 - это идиоматический способ сказать: "Выполни этот цикл ровно столько раз, какое значение было у n в начале, и при этом постепенно уменьшай n"
           if (searchMe.charAt(j++) != substring.charAt(k++)) {
             continue test;
           }
