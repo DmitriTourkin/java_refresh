@@ -49,11 +49,6 @@ public class ArraysDemo {
 
     copyingArrayInJava();
 
-
-
-
-
-
     // Array Manipulations — Array Class (sorting, searching, copying)
     int[] copyTo2 = Arrays.copyOfRange(array, 1, 3);
     for (int num : copyTo2) {
