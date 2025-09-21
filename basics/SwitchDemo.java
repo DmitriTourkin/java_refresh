@@ -11,6 +11,8 @@ public class SwitchDemo {
       default -> "Unknown quarter";
     };
 
+    System.out.println(quarterLabel);
+
     quarter = 0;
 
     quarterLabel =
