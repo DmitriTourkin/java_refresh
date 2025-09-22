@@ -7,11 +7,15 @@ enum DaysOfWeek {
     void doSomething() {
       System.out.println("Monday instance implementing the abstract method");
     }
-  };
+  },
   //TUESDAY("TUE"),
   //WEDNESDAY("WED"), 
   //THURSDAY("THUR"),
-  //FRIDAY("FRI"), 
+  FRIDAY("FRI") {
+    void doSomething() {
+      return;
+    }
+  };
   //SATURDAY("SAT"), 
   //SUNDAY("SUN");
 
@@ -36,6 +40,5 @@ public class EnumsDemo {
 
     System.out.println(day + " " + dayNum);
     DaysOfWeek dayFromString = DaysOfWeek.valueOf(day);
-    DaysOfWeek dayFromNum = DaysOfWeek.
   }
 }
